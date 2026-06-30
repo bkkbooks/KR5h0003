@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5h0003/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5h0003/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 聖母孔雀明王尊經啟白儀
+  date: '2015-08-29 03:00:53.303155'
+  source:
+    repository: kanripo
+    path: KR5h0003
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5h0003_000-ZTDZ.yaml, hash: 'sha256:29671847902a7fa533821881d2c4f4bdba95df8514a8ba0cea4af7be2e71b51c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5h0003_000-ZTDZ.markers.yaml, hash: 'sha256:2b81a4455c4c8a3ce162ddd7ecd9f64841bdae80361d4e4182495779953089d6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5h0003_SJB_000-340585c
+    span:
+    - body
+    - 0
+    - 5197
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:fb72fa7f7e7e550884be2aeb8de13b97b561e0255d895089bf080fdee41b8f92
